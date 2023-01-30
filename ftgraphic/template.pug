@@ -1,4 +1,4 @@
-.ftgraphic 
+.ftgraphic
    <div class="logo1">
    <img :src="imageUrl1" />
    </div>
@@ -6,4 +6,8 @@
    <div class="logo2">
    <img :src="imageUrl2" />
    </div>
-   
+
+    h2#hn(v-html="visibleEntry.props.hn")
+    h2#an(v-html="visibleEntry.props.an")
+    h2#score1(v-html="visibleEntry.props.score1")
+    h2#score2(v-html="visibleEntry.props.score2")
